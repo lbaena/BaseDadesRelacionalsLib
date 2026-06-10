@@ -1,18 +1,20 @@
 package lbaena;
 
-import lombok.Getter;
-import lombok.Setter;
-
-import java.sql.SQLException;
-
-@Getter
-@Setter
 public class PostgreSQL extends BaseDadesRelacionals {
 
-    @Override
-    protected String getStringConnexio() throws SQLException {
-        return String.format("jdbc:postgresql://%s:%s/%s?user=%s&password=%s",
-                this.DB_HOST, this.DB_PORT, this.DB_NAME, this.DB_USER, this.DB_PASSWD);
+    private String driver = "org.postgresql.Driver";
+
+    public PostgreSQL(String dbHost, String dbPort, String dbName, String dbUser, String dbPasswd) {
+        super(dbHost, dbPort, dbName, dbUser, dbPasswd);
+        this.DB_DRIVER = driver;
     }
 
+    public PostgreSQL(String dbHost, String dbName, String dbUser, String dbPasswd) {
+        this(dbHost, "5432", dbName, dbUser, dbPasswd);
+    }
+
+    @Override
+    public String getStringConnexio() {
+        return "jdbc:postgresql://" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME;
+    }
 }

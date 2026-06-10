@@ -1,30 +1,20 @@
 package lbaena;
 
-import lombok.Getter;
-import lombok.Setter;
-
-import java.sql.SQLException;
-
-@Getter
-@Setter
 public class MariaDB extends BaseDadesRelacionals {
 
-    public MariaDB() {
+    private String driver = "org.mariadb.jdbc.Driver";
+
+    public MariaDB(String dbHost, String dbPort, String dbName, String dbUser, String dbPasswd) {
+        super(dbHost, dbPort, dbName, dbUser, dbPasswd);
+        this.DB_DRIVER = driver;
     }
 
-    public MariaDB(String DB_PORT, String DB_NAME, String DB_USERNAME, String DB_PASSWORD, String DB_HOST, String DB_DRIVER) {
-        this.DB_NAME = DB_NAME;
-        this.DB_USER = DB_USERNAME;
-        this.DB_PASSWD = DB_PASSWORD;
-        this.DB_HOST = DB_HOST;
-        this.DB_PORT = DB_PORT;
-        this.DB_DRIVER = DB_DRIVER;
+    public MariaDB(String dbHost, String dbName, String dbUser, String dbPasswd) {
+        this(dbHost, "3306", dbName, dbUser, dbPasswd);
     }
 
     @Override
-    protected String getStringConnexio() throws SQLException {
-        return String.format("jdbc:mysql://%s:%s/%s?user=%s&password=%s",
-                this.DB_HOST, this.DB_PORT, this.DB_NAME, this.DB_USER, this.DB_PASSWD);
+    public String getStringConnexio() {
+        return "jdbc:mariadb://" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME;
     }
-
 }

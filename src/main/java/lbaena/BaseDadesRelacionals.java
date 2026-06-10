@@ -1,4 +1,4 @@
-package lepsima;
+package lbaena;
 
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
