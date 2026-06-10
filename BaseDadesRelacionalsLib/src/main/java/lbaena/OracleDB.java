@@ -1,8 +1,6 @@
 package lbaena;
 
-import lbaena.BaseDadesRelacionals;
-
-public class Oracle extends BaseDadesRelacionals {
+public class OracleDB extends BaseDadesRelacionals {
 
     public enum DriverType {
         SID,

@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6272400e-c3c0-4ccd-97e1-e17ceba597a0" name="Changes" comment="add library to gitlab">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lbaena/BaseDadesRelacionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena/BaseDadesRelacionals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lbaena/MariaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena/MariaDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lbaena/Oracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena/Oracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lbaena/PostgreSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena/PostgreSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lbaena/SQLiteDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena/SQLiteDB.java" afterDir="false" />
+    <list default="true" id="6272400e-c3c0-4ccd-97e1-e17ceba597a0" name="Changes" comment="add library to gitlab2">
+      <change afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena/Oracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena/OracleDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +51,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lbaena/BaseDadesRelacionalsLib.git",
-    "accountId": "46e0bc1d-13e8-4f6f-90de-2932421671ee"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lbaena&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lbaena/BaseDadesRelacionalsLib.git&quot;,
+    &quot;accountId&quot;: &quot;46e0bc1d-13e8-4f6f-90de-2932421671ee&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -80,32 +72,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.BaseDadesRelacionalsLib [build].executor": "Run",
-    "Gradle.BaseDadesRelacionalsLib [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lbaena/Desktop/CLASS/DAM1/PROGRAMACIÓ/BaseDadesRelacionalsLib/BaseDadesRelacionalsLib/src/main/java/lbaena",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/lbaena/Desktop/CLASS/DAM1/PROGRAMACIÓ/BaseDadesRelacionalsLib/BaseDadesRelacionalsLib/src/main/java/lbaena/Main.java",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.BaseDadesRelacionalsLib [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BaseDadesRelacionalsLib [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lbaena/Desktop/CLASS/DAM1/PROGRAMACIÓ/BaseDadesRelacionalsLib/BaseDadesRelacionalsLib/BaseDadesRelacionalsLib/src/main/java/lbaena&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/lbaena/Desktop/CLASS/DAM1/PROGRAMACIÓ/BaseDadesRelacionalsLib/BaseDadesRelacionalsLib/src/main/java/lbaena/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BaseDadesRelacionalsLib/src/main/java/lbaena" />
       <recent name="$PROJECT_DIR$/src/main/java/lbaena" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BaseDadesRelacionalsLib" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -219,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781125429888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add library to gitlab2">
+      <option name="closed" value="true" />
+      <created>1781125588307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781125588307</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,14 +231,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add library to gitlab" />
-    <option name="LAST_COMMIT_MESSAGE" value="add library to gitlab" />
+    <MESSAGE value="add library to gitlab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add library to gitlab2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/BaseDadesRelacionalsLib/build.gradle</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
